@@ -1,0 +1,238 @@
+body{
+    font-family: sans-serif;
+    color: #373737;
+    margin: 0;
+    letter-spacing: 2px;
+
+}
+
+/*header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+.menu{
+    display: block;
+
+}
+
+.menu-list{
+    list-style: none;
+
+}
+
+.menu-list-item{
+    display: inline-block;
+
+}
+
+.menu-list-item a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #373737;
+    margin-right: 30px;
+}
+.logo-container img{
+    width: 120px;
+
+}
+
+/* main banner */
+
+.main-banner{
+    width: 100%;
+}
+
+/* valoraciones */
+
+.valoraciones{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 40px 30px;
+}
+
+.valoracion{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.valoracion-description{
+    margin: 1px 0 0 10px;
+}
+
+.valoracion-bold-s{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.valoracion-bold{
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 5px 0;
+}
+
+.valoracion-light{
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
+
+/* collections */
+
+.collections{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.collection{
+    position: relative;
+}
+
+.collection img{
+    width: 450px;
+
+}
+
+.collection-description{
+    position: absolute;
+    top: 115px;
+    left: 30px;
+}
+
+.collection-description-buy{
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
+
+.collection-description-text{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+/* PACKS */
+
+.pack{
+    position: relative;
+}
+
+.pack-img{
+    width: 100%;
+}
+
+.packs-description{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.packs-light{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
+
+.packs-bold{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.pack-button{
+    color: white;
+    background-color: #373737;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+/* Novedad */
+
+.novedad{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+/* Calcetines */
+
+.calcetines{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.calcetines-gif{
+    margin: 20px;
+}
+
+.calcetines-imagenes{
+    margin: 20px 0 0 0;
+}
+
+.calcetines-img{
+    margin: 0 5px 5px 0;
+}
+
+.newsletter{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.newsletter-p-lighter{
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.subscribe-input{
+    background-color: #fff;
+    border: 5px;
+    color: gray;
+    font-size: 10px;
+    width: fit-content;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #f8f7f8;
+
+}
+
+.footer-cw{
+    display: block;
+
+}
+
+.footer-list{
+    list-style: none;
+
+}
+
+.footer-list-item{
+    display: inline-block;
+}
+
+.footer-cw-p{
+    font-size: 10px;
+    color: #373737;
+}
+.footer-list-item a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #373737;
+    margin-right: 30px;
+}
